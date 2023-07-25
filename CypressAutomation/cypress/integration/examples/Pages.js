@@ -6,12 +6,13 @@ describe('First test suite', function()
 {
   it('Login for Multientity', function()
   {
+     // checking git
       //test steps will come here
       cy.visit("https://multientity.sensehq.com/dashboard");
       cy.get('[data-it-email="true"]').type('nidhi@sensehq.com');
       cy.get(2000);
       cy.get('[data-it-password="true"]').type('Nidhu@1213');
-      cy.get(2000);
+      cy.get(3000);
       cy.get('.auth__button___yhEo4').click();
       cy.wait(15000);
       cy.get('[data-qa-id="select-pages-page"]').click();
