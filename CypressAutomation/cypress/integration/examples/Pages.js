@@ -16,7 +16,7 @@ describe('First test suite', function()
       cy.get('.auth__button___yhEo4').click();
       cy.wait(15000);
       cy.get('[data-qa-id="select-pages-page"]').click();
-      cy.wait(20000);
+      cy.wait(22000);
 
       //PAGES CREATION:
 
