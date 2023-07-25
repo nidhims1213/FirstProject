@@ -6,7 +6,7 @@ describe('First test suite', function()
 {
   it('Login for Multientity', function()
   {
-     // checking git c 2
+     // checking git changes for a new PR
       //test steps will come here
       cy.visit("https://multientity.sensehq.com/dashboard");
       cy.get('[data-it-email="true"]').type('nidhi@sensehq.com');
